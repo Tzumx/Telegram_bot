@@ -173,5 +173,5 @@ def search_loc(message):
     except Exception as e:
         bot.reply_to(message, 'Something wrong. Sorry...')
 
-# bot.polling()
-bot.infinity_polling(True)
+bot.polling()
+# bot.infinity_polling(True)
