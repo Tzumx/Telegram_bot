@@ -4,4 +4,4 @@
 __pycache__/
 *.py[co]
 read.me
-.venv/
+venv/
