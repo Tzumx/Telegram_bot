@@ -1,1 +1,1 @@
-worker: python3 telegram.py
+web: (python -m simpleHTTPServer $PORT &) && python3 telegram.py 
