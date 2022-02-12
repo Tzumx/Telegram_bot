@@ -76,7 +76,11 @@ class Location:
 
 @bot.message_handler(commands=['start'])
 def start_message(message):
-	bot.send_message(message.chat.id, 'Welcome...')
+    bot.send_message(message.chat.id, 'Welcome...')
+    bot.send_message(message.chat.id, '/add - for new location')
+    bot.send_message(message.chat.id, '/list - list all locations')
+    bot.send_message(message.chat.id, '/reset - delete all locations')
+    bot.send_message(message.chat.id, 'location - add new location')
 
 @bot.message_handler(commands=['add'])
 def handle_add_location(message):
