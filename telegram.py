@@ -1,7 +1,7 @@
 import telebot
 import sqlite3
 from math import radians, sin, cos, asin, sqrt
-token = '5101692342:AAEIizVB4TfJaK_uGTVFy_lllNVk4MyFb-M'
+token = ''
 
 # def get_db_ready(db_con):
     
